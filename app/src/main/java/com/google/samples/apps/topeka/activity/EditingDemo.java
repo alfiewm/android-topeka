@@ -27,7 +27,7 @@ public class EditingDemo {
     }
 
     /**
-     * 2.- Completion: Enter vs Tab,Tab可以自动替换
+     * 2.- Completion: Enter vs Tab
      */
     public boolean completion(String first, String second) {
         return first.contains(second);
@@ -76,7 +76,7 @@ public class EditingDemo {
      * 6.- Extract method
      * Selection with:
      * Alt + up/down
-     * Mehtod:
+     * Method:
      * Cmd+ALt+M OR Cmd + Shit + A -> Extract Method
      */
     public void values() {
@@ -132,5 +132,9 @@ public class EditingDemo {
     /**
      * 10.- local history
      * Ctrl + Shift + A, local history
+     */
+
+    /**
+     * 回到上个编辑位置Cmd + Shift + Backspace
      */
 }
